@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="13" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-16T11:12:51 IST" name="Suite" finished-at="2022-12-16T11:14:11 IST" duration-ms="79386">
+    <groups>
+    </groups>
+    <test started-at="2022-12-16T11:12:51 IST" name="Test" finished-at="2022-12-16T11:14:11 IST" duration-ms="79386">
+      <class name="scrips.test3">
+        <test-method is-config="true" signature="openapp()[pri:0, instance:scrips.test3@3e58a80e]" started-at="2022-12-16T11:13:22 IST" name="openapp" finished-at="2022-12-16T11:13:25 IST" duration-ms="3203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method signature="tc2()[pri:0, instance:scrips.test3@3e58a80e]" started-at="2022-12-16T11:13:25 IST" name="tc2" finished-at="2022-12-16T11:13:33 IST" duration-ms="7349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+        <test-method is-config="true" signature="closeapp(org.testng.ITestResult)[pri:0, instance:scrips.test3@3e58a80e]" started-at="2022-12-16T11:13:33 IST" name="closeapp" finished-at="2022-12-16T11:13:33 IST" duration-ms="237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc2 status=SUCCESS method=test3.tc2()[pri:0, instance:scrips.test3@3e58a80e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- scrips.test3 -->
+      <class name="scrips.test2">
+        <test-method is-config="true" signature="openapp()[pri:0, instance:scrips.test2@4fb61f4a]" started-at="2022-12-16T11:13:34 IST" name="openapp" finished-at="2022-12-16T11:13:37 IST" duration-ms="2881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method signature="tc5(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scrips.test2@4fb61f4a]" started-at="2022-12-16T11:13:37 IST" name="tc5" data-provider="readdatafromexel" finished-at="2022-12-16T11:13:42 IST" duration-ms="4712" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ramesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ramesh@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[selenium]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test request plz dnt consider]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc5 -->
+        <test-method is-config="true" signature="closeapp(org.testng.ITestResult)[pri:0, instance:scrips.test2@4fb61f4a]" started-at="2022-12-16T11:13:42 IST" name="closeapp" finished-at="2022-12-16T11:13:42 IST" duration-ms="308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc5 status=SUCCESS method=test2.tc5(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scrips.test2@4fb61f4a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+        <test-method is-config="true" signature="openapp()[pri:0, instance:scrips.test2@4fb61f4a]" started-at="2022-12-16T11:13:42 IST" name="openapp" finished-at="2022-12-16T11:13:45 IST" duration-ms="2904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method signature="tc5(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scrips.test2@4fb61f4a]" started-at="2022-12-16T11:13:45 IST" name="tc5" data-provider="readdatafromexel" finished-at="2022-12-16T11:13:49 IST" duration-ms="4419" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Suresh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[suresh@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[java]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test request plz dnt consider]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc5 -->
+        <test-method is-config="true" signature="closeapp(org.testng.ITestResult)[pri:0, instance:scrips.test2@4fb61f4a]" started-at="2022-12-16T11:13:49 IST" name="closeapp" finished-at="2022-12-16T11:13:50 IST" duration-ms="294" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc5 status=SUCCESS method=test2.tc5(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scrips.test2@4fb61f4a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+        <test-method is-config="true" signature="openapp()[pri:0, instance:scrips.test2@4fb61f4a]" started-at="2022-12-16T11:13:50 IST" name="openapp" finished-at="2022-12-16T11:13:52 IST" duration-ms="2682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method signature="tc5(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scrips.test2@4fb61f4a]" started-at="2022-12-16T11:13:52 IST" name="tc5" data-provider="readdatafromexel" finished-at="2022-12-16T11:13:56 IST" duration-ms="3817" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Adarsh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[adarsh@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[python]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test request plz dnt consider]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc5 -->
+        <test-method is-config="true" signature="closeapp(org.testng.ITestResult)[pri:0, instance:scrips.test2@4fb61f4a]" started-at="2022-12-16T11:13:56 IST" name="closeapp" finished-at="2022-12-16T11:13:56 IST" duration-ms="212" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc5 status=SUCCESS method=test2.tc5(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scrips.test2@4fb61f4a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+        <test-method is-config="true" signature="openapp()[pri:0, instance:scrips.test2@4fb61f4a]" started-at="2022-12-16T11:13:56 IST" name="openapp" finished-at="2022-12-16T11:13:59 IST" duration-ms="2858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method signature="tc5(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scrips.test2@4fb61f4a]" started-at="2022-12-16T11:13:59 IST" name="tc5" data-provider="readdatafromexel" finished-at="2022-12-16T11:14:04 IST" duration-ms="4218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Girish]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[girish@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Appium]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test request plz dnt consider]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc5 -->
+        <test-method is-config="true" signature="closeapp(org.testng.ITestResult)[pri:0, instance:scrips.test2@4fb61f4a]" started-at="2022-12-16T11:14:04 IST" name="closeapp" finished-at="2022-12-16T11:14:04 IST" duration-ms="236" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc5 status=SUCCESS method=test2.tc5(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scrips.test2@4fb61f4a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- scrips.test2 -->
+      <class name="scrips.test4">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:scrips.test4@5ffead27]" started-at="2022-12-16T11:12:50 IST" name="configBS" finished-at="2022-12-16T11:12:51 IST" duration-ms="881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="openapp()[pri:0, instance:scrips.test4@5ffead27]" started-at="2022-12-16T11:12:51 IST" name="openapp" finished-at="2022-12-16T11:13:18 IST" duration-ms="26895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method signature="tc5()[pri:0, instance:scrips.test4@5ffead27]" started-at="2022-12-16T11:13:18 IST" name="tc5" finished-at="2022-12-16T11:13:22 IST" duration-ms="3829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc5 -->
+        <test-method is-config="true" signature="closeapp(org.testng.ITestResult)[pri:0, instance:scrips.test4@5ffead27]" started-at="2022-12-16T11:13:22 IST" name="closeapp" finished-at="2022-12-16T11:13:22 IST" duration-ms="78" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc5 status=SUCCESS method=test4.tc5()[pri:0, instance:scrips.test4@5ffead27] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:scrips.test4@5ffead27]" started-at="2022-12-16T11:14:11 IST" name="configAS" finished-at="2022-12-16T11:14:11 IST" duration-ms="650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- scrips.test4 -->
+      <class name="scrips.test1">
+        <test-method is-config="true" signature="openapp()[pri:0, instance:scrips.test1@4fb0f2b9]" started-at="2022-12-16T11:14:04 IST" name="openapp" finished-at="2022-12-16T11:14:07 IST" duration-ms="2742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method signature="tc1()[pri:0, instance:scrips.test1@4fb0f2b9]" started-at="2022-12-16T11:14:07 IST" name="tc1" finished-at="2022-12-16T11:14:11 IST" duration-ms="4062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method is-config="true" signature="closeapp(org.testng.ITestResult)[pri:0, instance:scrips.test1@4fb0f2b9]" started-at="2022-12-16T11:14:11 IST" name="closeapp" finished-at="2022-12-16T11:14:11 IST" duration-ms="63" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc1 status=SUCCESS method=test1.tc1()[pri:0, instance:scrips.test1@4fb0f2b9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- scrips.test1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
